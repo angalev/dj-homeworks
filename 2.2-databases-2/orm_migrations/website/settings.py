@@ -74,11 +74,12 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'netology_orm_migrations',
-        'HOST': '127.0.0.1',
+        'HOST': 'localhost',
         'PORT': '5432',
+        'USER': 'postgres',
+        'PASSWORD': '12345',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
